@@ -1,0 +1,71 @@
+/*Karan Patel 8911445*/
+body {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 16px Arial, sans-serif;
+    padding: 20px;
+}
+
+header,footer{
+    border: 1px solid #ffb8b8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h1, h2 {
+    color: #336699;
+    font-variant: small-caps;
+}
+
+
+footer p {
+    font-size: 14px;
+    color: #4a4949;
+
+}
+
+
+main {
+    float: left;
+    width: 66.66%;
+    padding: 10px;
+}
+
+aside {
+    float: right;
+    width: 33.33%;
+    padding: 10px;
+}
+
+
+.mainimg img {
+    border: 2px solid #925de0;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+aside ul li {
+    list-style: none;
+    line-height: 1.5;
+}
+
+aside ul > li > a {
+    text-decoration: none;
+    color: #72aae3;
+}
+
+aside ul > li > a:hover {
+    color: #e9e329;
+}
